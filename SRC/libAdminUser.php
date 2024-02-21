@@ -109,7 +109,7 @@ function subAdminUserEdit()
 			</tr>
 			<tr>
 				<th>PASS<span class="red">（必須）</span></th>
-				<td><input type="text" name="password" value="<?php print $password; ?>" /></td>
+				<td><input type="text" name="password" value="" /></td>
 			</tr>
 			<tr>
 				<th>所属</th>
