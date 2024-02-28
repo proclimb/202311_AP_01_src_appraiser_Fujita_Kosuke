@@ -198,7 +198,7 @@ function subFManagerEdit()
 					</td>
 				</tr>
 				<tr>
-					<th>物件名</th>
+					<th>物件名<span class="red">（必須）</span></th>
 					<td><input type="text" name="name" value="<?php print $name; ?>" /></td>
 				</tr>
 				<tr>
@@ -493,7 +493,7 @@ function subFManagerViewEdit()
 					<td><textarea name="note" cols="50" rows="10"><?php print $note; ?></textarea></td>
 				</tr>
 				<tr>
-					<th>PDFファイル<?php print $purpose; ?></th>
+					<th>PDFファイル<?php print $purpose; ?><span class="red">（必須）</span></th>
 					<td><input type="file" name="pdfFile" /></td>
 				</tr>
 			</table>
